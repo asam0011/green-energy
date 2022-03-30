@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4rem;
+    font-size: 0.75rem;
+}
+
+.container {
+    max-width: 60rem;
+    margin: .50px auto;
+}
+
+.masthead {
+    background-image: url(../img/pexels-martin-damboldt-814499.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: .20px;
+    background-color: #2A8C32;
+    color: white;
+    padding: 2rem;
+}
+
+.masthead h1 {
+    font-family: 'Ramaraja', serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.masthead p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -20px;
+    color:#FAF6A6;
+}
+.nav-bar{
+    background-color: #71AB40;
+    padding: .95rem;
+    }
+
+nav ul {
+    list-style-type:none;
+    
+    margin: 0.15rem;
+    
+}
+
+
+nav li a {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    padding: 5px;
+    text-transform: uppercase;
+    
+
+}
+
+.nav-bar a:hover {
+    background-color: #DB9A04;
+}
+
+#active {
+    color: white;
+    background-color: #71AB40;
+}
+
+button {
+
+    
+    width: 150px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.controls ul li {
+    list-style-type: none;
+}
+
+.controls li {
+    display: inline-block; 
+   
+}
+
+.content {
+    display: flex;
+    font-family:'Roboto', sans-serif;
+    margin: 1rem;
+}
+
+.content p {
+    margin: 1rem;
+    color: #FAF6A6;
+    font-size: 1rem;
+}
+
+.dynamic-content {
+    background-color:#71AB40;
+    padding: .80rem;
+    color: white;
+    font-family:'Roboto', sans-serif;
+
+}
+
+
+
+
+footer {
+    position: relative;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    background-color: #71AB40;
+}
+
+footer img {
+    margin: .35rem;
+}
+
+footer a {
+    align-items: center;
+    margin: .30rem;
+}
+
+
+
+
+/*-----------media query---------------------*/
+
+@media (min-width: 60rem) {
+
+    body {
+        
+        font-size: 1rem;
+    }
+
+    .masthead h1 {
+        font-family: 'Ramaraja', serif;
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+
+
+    .dynamic-content {
+        display: flex;
+        background-color:#71AB40;
+        padding: 1rem;
+        color: white;
+        font-family:'Roboto', sans-serif;
+    
+    }
+    
+
+    nav ul {
+        list-style-type:none;
+        display: flex;
+        margin: 0.15rem;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        width: 180px;
+        padding: 5px;
+        text-transform: uppercase;
+        text-align: center;
+    
+    }
+    
+    .nav-bar a:hover {
+        background-color: #DB9A04;
+    }
+    
+    #active {
+        color: white;
+        background-color: #71AB40;
+    }
+
+
+    button {
+
+        margin-left: 6rem;
+        width: 150px;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+/*-------------hexadecimal values of colors---------------------------
+#2A8C32
+#FAF6A6
+#71AB40
+#DB9A04
+*/
